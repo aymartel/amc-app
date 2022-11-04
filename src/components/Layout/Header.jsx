@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
 import {
-  FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaYoutube,
-  FaDribbble,
+  FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 
 const headerData = {
@@ -14,11 +13,10 @@ const headerData = {
   designation: "Master in Applied Informatics",
   imageThumb: "/images/logo.png",
   social: {
-    facebook: "https://facebook.com",
-    twitter: "https://twitter.com",
-    instagram: "https://www.instagram.com/",
-    youtue: "https://www.youtube.com/",
-    dribbble: "https://dribbble.com/",
+    github: "https://github.com/aymartel",
+    twitter: "https://twitter.com/andyymartel",
+    instagram: "https://www.instagram.com/andy.martel",
+    linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
   },
 };
 
@@ -169,24 +167,7 @@ function Header({ toggleHeader, toggleHandler }) {
                   </Link>
                 )}
               </li>
-              <li>
-                {currentPath === "/" ? (
-                  <ScrollLink
-                    activeClass="active"
-                    to="section-blogs"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={500}
-                  >
-                    <i className="icon-pencil"></i>Blog
-                  </ScrollLink>
-                ) : (
-                  <Link to="/">
-                    <i className="icon-pencil"></i>Blog
-                  </Link>
-                )}
-              </li>
+              
               <li>
                 {currentPath === "/" ? (
                   <ScrollLink
@@ -210,10 +191,10 @@ function Header({ toggleHeader, toggleHandler }) {
 
           <div className="footer mt-auto">
             <ul className="social-icons list-inline">
-              {!headerData.social.facebook ? null : (
+              {!headerData.social.github ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.facebook}>
-                    <FaFacebookF />
+                  <a href={headerData.social.github}>
+                    <FaGithub />
                   </a>
                 </li>
               )}
@@ -231,20 +212,14 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-              {!headerData.social.youtue ? null : (
+              {!headerData.social.linkedin ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.youtue}>
-                    <FaYoutube />
+                  <a href={headerData.social.linkedin}>
+                    <FaLinkedin />
                   </a>
                 </li>
               )}
-              {!headerData.social.dribbble ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.dribbble}>
-                    <FaDribbble />
-                  </a>
-                </li>
-              )}
+              
             </ul>
 
             <span className="copyright">

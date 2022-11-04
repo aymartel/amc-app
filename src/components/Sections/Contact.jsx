@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, {  useState }  from 'react';
+import emailjs from '@emailjs/browser';
+import Loading from '../Items/Loading';
 
 const contactData = {
-  phone: ["+44 1632 960428"],
-  email: ["hello@bako.com"],
-  location: "West Palm Beach, 4669 Travis Street",
+  phone: ["+7 977 773 8978"],
+  email: ["aymartel@gmail.com"],
+  location: "Ulitsa Tvardovskogo, 19 корпус 3, Moskva, 123458",
 };
 
 function Contact() {
@@ -16,24 +18,37 @@ function Contact() {
 
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");
-
+const [loading, setloading] = useState(false)
   const submitHandler = (event) => {
     event.preventDefault();
+    setloading(true)
     if (!formdata.name) {
       setError(true);
+      setloading(false);
       setMessage("Name is required");
     } else if (!formdata.email) {
       setError(true);
+      setloading(false);
       setMessage("Email is required");
     } else if (!formdata.subject) {
       setError(true);
+      setloading(false);
       setMessage("Subject is required");
     } else if (!formdata.message) {
       setError(true);
+      setloading(false);
       setMessage("Message is required");
     } else {
-      setError(false);
-      setMessage("You message has been sent!!!");
+      emailjs.sendForm('service_yu70oyy', 'template_jd3dlw3', event.target, 'R6w9EuYAE4sxVuJS0')
+      .then((result) => {
+        setError(false);
+        setloading(false);
+        setMessage("You message has been sent!");
+      }, (error) => {
+        setError(true);
+        setloading(false);
+        setMessage("Your message has not been sent, please try again");
+      });
     }
   };
 
@@ -139,7 +154,7 @@ function Contact() {
               </div>
             </div>
           </div>
-
+          <div className="row">
           <button
             type="submit"
             name="submit"
@@ -147,7 +162,9 @@ function Contact() {
             className="btn btn-default"
           >
             <i className="icon-paper-plane"></i>Send Message
-          </button>
+          </button>{loading?<Loading/>:null}
+          </div>
+          
         </form>
         {handleAlerts()}
       </div>

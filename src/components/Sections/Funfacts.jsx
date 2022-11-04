@@ -6,7 +6,7 @@ const funfactData = [
   {
     id: 1,
     title: "Projects completed",
-    count: 157,
+    count: 20,
     icon: "icon-like",
   },
   {
@@ -18,13 +18,13 @@ const funfactData = [
   {
     id: 3,
     title: "Happy customers",
-    count: 350,
+    count: 15,
     icon: "icon-emotsmile",
   },
   {
     id: 4,
     title: "Awards won",
-    count: 29,
+    count: 9,
     icon: "icon-trophy",
   },
 ];

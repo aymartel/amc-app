@@ -4,27 +4,27 @@ import Skill from "../Items/Skill";
 
 const skillData = {
   skillContent:
-    "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics",
+    "I have 3 years of experience in web development working with REACT and Angular technologies using Javascript, HTML, CSS languages. I also have experience as a graphic designer working with Adobe Creative Suite specifically Illustrator and Photoshop. I’m very proactive and I'm always trying to learn new skills.",
   progressData: [
     {
       id: 1,
-      name: "Wordpress",
-      percentage: 85,
+      name: "Javascript",
+      percentage: 75,
     },
     {
       id: 2,
       name: "HTML & CSS",
-      percentage: 90,
+      percentage: 80,
     },
     {
       id: 3,
-      name: "jQuery",
+      name: "Database",
       percentage: 60,
     },
     {
       id: 4,
-      name: "Sketch",
-      percentage: 70,
+      name: "O.O.P",
+      percentage: 85,
     },
   ],
 };

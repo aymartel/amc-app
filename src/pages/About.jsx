@@ -4,8 +4,8 @@ import SectionHeading from "../components/Items/SectionHeading";
 import AboutSection from "../components/Sections/About";
 import Skills from "../components/Sections/Skills";
 import Funfacts from "../components/Sections/Funfacts";
-import Testimonials from "../components/Sections/Testimonials";
-import Clients from "../components/Sections/Clients";
+// import Testimonials from "../components/Sections/Testimonials";
+// import Clients from "../components/Sections/Clients";
 
 function About() {
   useEffect(() => {
@@ -25,12 +25,12 @@ function About() {
 
       <Funfacts />
 
-      <section className="shadow-blue white-bg padding">
+      {/* <section className="shadow-blue white-bg padding">
         <SectionHeading title="Testimonials" />
         <Testimonials />
       </section>
 
-      <Clients />
+      <Clients /> */}
     </Layout2>
   );
 }

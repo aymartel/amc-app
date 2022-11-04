@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaYoutube,
-  FaDribbble,
+  FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 
 const headerData = {
@@ -13,11 +12,10 @@ const headerData = {
   designation: "Master in Applied Informatics",
   imageThumb: "/images/logo.png",
   social: {
-    facebook: "https://facebook.com",
-    twitter: "https://twitter.com",
-    instagram: "https://www.instagram.com/",
-    youtue: "https://www.youtube.com/",
-    dribbble: "https://dribbble.com/",
+    github: "https://github.com/aymartel",
+    twitter: "https://twitter.com/andyymartel",
+    instagram: "https://www.instagram.com/andy.martel",
+    linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
   },
 };
 
@@ -37,7 +35,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <span></span>
         </button>
         <Link to="/" className="logo">
-          <img src={headerData.imageThumb} alt={headerData.name} />
+          <img src={headerData.imageFavicon} alt={headerData.name} />
         </Link>
         <Link to="/" className="site-title dot ml-2">
           {headerData.name}
@@ -97,11 +95,6 @@ function Header({ toggleHeader, toggleHandler }) {
                 </Link>
               </li>
               <li>
-                <Link to="/bloglist">
-                  <i className="icon-pencil"></i>Blog
-                </Link>
-              </li>
-              <li>
                 <Link to="/contact">
                   <i className="icon-phone"></i>Contact
                 </Link>
@@ -110,11 +103,11 @@ function Header({ toggleHeader, toggleHandler }) {
           </nav>
 
           <div className="footer mt-auto">
-            <ul className="social-icons list-inline">
-              {!headerData.social.facebook ? null : (
+          <ul className="social-icons list-inline">
+              {!headerData.social.github ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.facebook}>
-                    <FaFacebookF />
+                  <a href={headerData.social.github}>
+                    <FaGithub />
                   </a>
                 </li>
               )}
@@ -132,24 +125,18 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-              {!headerData.social.youtue ? null : (
+              {!headerData.social.linkedin ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.youtue}>
-                    <FaYoutube />
+                  <a href={headerData.social.linkedin}>
+                    <FaLinkedin />
                   </a>
                 </li>
               )}
-              {!headerData.social.dribbble ? null : (
-                <li className="list-inline-item">
-                  <a href={headerData.social.dribbble}>
-                    <FaDribbble />
-                  </a>
-                </li>
-              )}
+              
             </ul>
 
             <span className="copyright">
-              &copy; {new Date().getFullYear()} Bako Template
+              &copy; {new Date().getFullYear()} Andy Martel
             </span>
           </div>
         </div>
