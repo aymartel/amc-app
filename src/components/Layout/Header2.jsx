@@ -11,6 +11,7 @@ const headerData = {
   name: "Andy Martel",
   designation: "Master in Applied Informatics",
   imageThumb: "/images/logo.png",
+  imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
     twitter: "https://twitter.com/andyymartel",

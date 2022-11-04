@@ -12,6 +12,7 @@ const headerData = {
   name: "Andy Martel",
   designation: "Master in Applied Informatics",
   imageThumb: "/images/logo.png",
+  imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
     twitter: "https://twitter.com/andyymartel",
@@ -43,7 +44,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <span></span>
         </button>
         <Link to="/" className="logo">
-          <img src={headerData.imageThumb} alt={headerData.name} />
+          <img src={headerData.imageFavicon} alt={headerData.name} />
         </Link>
         <Link to="/" className="site-title dot ml-2">
           {headerData.name}
