@@ -80,21 +80,21 @@ function Header({ toggleHeader, toggleHandler }) {
                   <i className="icon-user"></i>About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/services">
                   <i className="icon-bulb"></i>Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/resume">
                   <i className="icon-graduation"></i>Resume
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/works">
                   <i className="icon-grid"></i>Works
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">
                   <i className="icon-phone"></i>Contact
