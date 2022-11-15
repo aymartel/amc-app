@@ -24,19 +24,19 @@ function App() {
       <Switch>
         <Route path="/" component={Multipage} exact />
         {/* <Route path="/multipage" component={Multipage} exact /> */}
-        <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/bloglist" component={Bloglist2} exact />
-        <Route path="/blogs/:id/:title" component={BlogDetails} />
-        <Route path="/blog-details/:id/:title" component={BlogDetails2} />
+        {/* <Route path="/blogs" component={Bloglist} exact /> */}
+        {/* <Route path="/bloglist" component={Bloglist2} exact /> */}
+        {/* <Route path="/blogs/:id/:title" component={BlogDetails} /> */}
+        {/* <Route path="/blog-details/:id/:title" component={BlogDetails2} /> */}
 
         {/* For Multipage */}
-        <Route path="/multipage" component={Multipage} exact />
+        {/* <Route path="/multipage" component={Multipage} exact /> */}
         <Route path="/about" component={About} exact />
-        <Route path="/services" component={Services} exact />
+        {/* <Route path="/services" component={Services} exact /> */}
         <Route path="/resume" component={Resume} exact />
-        <Route path="/works" component={Works} exact />
-        <Route path="/works/:id/:title" component={WorkDetails} />
-        <Route path="/work-details/:id/:title" component={WorkDetails2} />
+        {/* <Route path="/works" component={Works} exact /> */}
+        {/* <Route path="/works/:id/:title" component={WorkDetails} /> */}
+        {/* <Route path="/work-details/:id/:title" component={WorkDetails2} /> */}
         <Route path="/contact" component={Contact} exact />
 
        
