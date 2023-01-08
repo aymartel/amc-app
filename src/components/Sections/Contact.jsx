@@ -5,7 +5,7 @@ import Loading from '../Items/Loading';
 const contactData = {
   phone: ["+7 977 773 8978"],
   email: ["aymartel@gmail.com"],
-  location: "Ulitsa Tvardovskogo, 19 корпус 3, Moskva, 123458",
+  location: "Ulitsa Profsoyuznaya, 115 корпус 2, Moskva, 117647",
 };
 
 function Contact() {

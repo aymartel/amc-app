@@ -90,11 +90,11 @@ function Header({ toggleHeader, toggleHandler }) {
                   <i className="icon-graduation"></i>Resume
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="/works">
                   <i className="icon-grid"></i>Works
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link to="/contact">
                   <i className="icon-phone"></i>Contact

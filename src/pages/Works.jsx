@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout2 from "../components/Layout/Layout2";
 import SectionHeading from "../components/Items/SectionHeading";
-import Portfolios2 from "../components/Sections/Portfolios2";
+import Portfolios from "../components/Sections/Portfolios";
 
 function Works() {
   useEffect(() => {
@@ -11,7 +11,7 @@ function Works() {
     <Layout2>
       <section className="shadow-blue white-bg padding mt-0">
         <SectionHeading title="Portfolio" />
-        <Portfolios2 />
+        <Portfolios />
       </section>
     </Layout2>
   );

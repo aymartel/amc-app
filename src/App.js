@@ -34,9 +34,9 @@ function App() {
         <Route path="/about" component={About} exact />
         {/* <Route path="/services" component={Services} exact /> */}
         <Route path="/resume" component={Resume} exact />
-        {/* <Route path="/works" component={Works} exact /> */}
-        {/* <Route path="/works/:id/:title" component={WorkDetails} /> */}
-        {/* <Route path="/work-details/:id/:title" component={WorkDetails2} /> */}
+        <Route path="/works" component={Works} exact />
+        <Route path="/works/:id/:title" component={WorkDetails} />
+        <Route path="/work-details/:id/:title" component={WorkDetails2} />
         <Route path="/contact" component={Contact} exact />
 
        

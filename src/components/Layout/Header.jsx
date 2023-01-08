@@ -150,7 +150,7 @@ function Header({ toggleHeader, toggleHandler }) {
                   </Link>
                 )}
               </li>
-              {/* <li>
+              <li>
                 {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
@@ -163,11 +163,11 @@ function Header({ toggleHeader, toggleHandler }) {
                     <i className="icon-grid"></i>Works
                   </ScrollLink>
                 ) : (
-                  <Link to="/">
+                  <Link to="/works">
                     <i className="icon-grid"></i>Works
                   </Link>
                 )}
-              </li> */}
+              </li>
               
               <li>
                 {currentPath === "/" ? (
