@@ -8,7 +8,7 @@ const aboutData = {
   location: "Moscow, Russia",
   birthday: "08 December, 1992",
   email: "aymartel@gmail.com",
-  aboutMe1:"I’m Andy Martel an enthusiastic detail-oriented Master in Applied Informatics who graduated from The National University of Science and Technology of Russia (MISIS) I am also Software Engineer from the University of Computer Science of Cuba (UCI).",
+  aboutMe1:"I’m Andy Martel an enthusiastic detail-oriented Master in Applied Informatics who graduated from The National University of Science and Technology of Russia (MISIS). I am also Software Engineer from the University of Computer Science of Cuba (UCI).",
 };
 
 function About() {
