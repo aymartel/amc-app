@@ -11,7 +11,7 @@ import {
 const headerData = {
   name: "Andy Martel",
   designation: "Master in Applied Informatics",
-  imageThumb: "/images/logo.png",
+  imageThumb: "/images/favicon.png",
   imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
