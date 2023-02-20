@@ -62,7 +62,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <Link to="/">
             <img src={headerData.imageThumb} alt={headerData.name} />
           </Link>
-          <Link to="/multipage" className="site-title dot mt-3">
+          <Link to="/" className="site-title dot mt-3">
             {headerData.name}
           </Link>
 
