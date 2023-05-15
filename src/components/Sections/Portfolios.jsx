@@ -34,10 +34,10 @@ const allData = [
   },
   {
     id: 2,
-    name: "KRB Business",
+    name: "MC Booster",
     category: ["branding","web"],
     image: "images/portfolio/2.jpg",
-    slug: "krb-business",
+    slug: "mc-booster",
   },
   {
     id: 3,

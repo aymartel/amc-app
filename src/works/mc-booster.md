@@ -1,10 +1,10 @@
 ---
 date: 18 Jule 2021
 author: Andy Martel
-link: https://www.krb-business.ru/
+link: https://www.mcbooster.com/
 ---
 
-### KRB Business
+### MC Booster
 
 ![Boost your post for increasing sales](/images/portfolio/2.jpg)
 
