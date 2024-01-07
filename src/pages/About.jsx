@@ -18,12 +18,12 @@ function About() {
         <AboutSection />
       </section>
 
-      {/* <section className="shadow-blue white-bg padding">
+      <section className="shadow-blue white-bg padding">
         <SectionHeading title="My skills" />
         <Skills />
-      </section> */}
+      </section>
 
-      <Funfacts />
+      {/* <Funfacts /> */}
 
       {/* <section className="shadow-blue white-bg padding">
         <SectionHeading title="Testimonials" />

@@ -12,7 +12,7 @@ function Funfact({ funfact: { title, count, icon = null }, isVisible }) {
   return (
     <div className="fact-item text-center">
       {icon ? <i className={`${icon} icon-circle`}></i> : null}
-      {/* <h2 className="count">{countQuery()}</h2> */}
+      <h2 className="count">{countQuery()}</h2>
       <span>{title}</span>
     </div>
   );
