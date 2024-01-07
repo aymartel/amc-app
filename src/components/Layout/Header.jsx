@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
 import {
-  FaTwitter,
+  FaWhatsap,
   FaInstagram,
   FaLinkedin,
   FaGithub,
@@ -15,7 +15,7 @@ const headerData = {
   imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
-    twitter: "https://twitter.com/andyymartel",
+    whatsap: "https://wa.me/+79939036475",
     instagram: "https://www.instagram.com/andy.martel",
     linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
   },
@@ -199,10 +199,10 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-              {!headerData.social.twitter ? null : (
+              {!headerData.social.whatsap ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.twitter}>
-                    <FaTwitter />
+                  <a href={headerData.social.whatsap}>
+                    <FaWhatsap />
                   </a>
                 </li>
               )}
