@@ -36,7 +36,7 @@ function Skills() {
       <div className="mt-5">
         <div className="row -mt-50">
           {skillData.progressData.map((progress) => (
-            <div className="col-md-6 mt-50" key={progress.id}>
+            <div className="col-md-3 mt-10" key={progress.id}>
               <TrackVisibility once>
                 <Skill progress={progress} />
               </TrackVisibility>
