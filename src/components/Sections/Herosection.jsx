@@ -27,7 +27,7 @@ function Herosection() {
           I’m {herosectionData.name}
           <span className="dot"></span>
         </h1>
-        <p className="mb-4">Cuban half Russian, Master in Applied Informatics, Amateur Baseball Player.<br></br><strong>"Keep your eyes on the stars and your feet on the ground"</strong> </p>
+        <p className="mb-4">Cuban Master in Applied Informatics, Amateur Baseball Player.<br></br><strong>"Keep your eyes on the stars and your feet on the ground"</strong> </p>
         <p className="mb-4"></p>
         {/* <Link to="/works"
           className="btn btn-default btn-lg mr-3"
