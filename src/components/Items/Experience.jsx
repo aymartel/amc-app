@@ -1,6 +1,6 @@
 import React from "react";
 
-function Experience({ experience: { year, degree, content } }) {
+function Experience({ experience: { year, degree, content, position } }) {
   return (
     <div className="entry">
       <div className="title">
