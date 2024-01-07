@@ -5,28 +5,138 @@ import Funfact from "../Items/Funfact";
 const funfactData = [
   {
     id: 1,
-    title: "Projects completed",
+    title: "Javascript",
     count: 20,
     icon: "icon-like",
   },
   {
     id: 2,
-    title: "Cup of coffee",
+    title: "Python",
     count: 2765,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Happy customers",
+    title: "Typescript",
     count: 15,
     icon: "icon-emotsmile",
   },
   {
     id: 4,
-    title: "Awards won",
+    title: "Data base",
     count: 9,
     icon: "icon-trophy",
   },
+  {
+    id: 5,
+    title: "HTML",
+    count: 20,
+    icon: "icon-like",
+  },
+  {
+    id: 6,
+    title: "CSS",
+    count: 2765,
+    icon: "icon-cup",
+  },
+  {
+    id: 7,
+    title: "Figma",
+    count: 15,
+    icon: "icon-emotsmile",
+  },
+  {
+    id: 8,
+    title: "React",
+    count: 9,
+    icon: "icon-trophy",
+  },
+  
+  {
+    id: 5,
+    title: "NextJs",
+    count: 20,
+    icon: "icon-like",
+  },
+  {
+    id: 6,
+    title: "Container",
+    count: 2765,
+    icon: "icon-cup",
+  },
+  {
+    id: 7,
+    title: "Bootstrap",
+    count: 15,
+    icon: "icon-emotsmile",
+  },
+  {
+    id: 8,
+    title: "Material UI",
+    count: 9,
+    icon: "icon-trophy",
+  },
+  {
+    id: 1,
+    title: "Git",
+    count: 20,
+    icon: "icon-like",
+  },
+  {
+    id: 2,
+    title: "Jira",
+    count: 2765,
+    icon: "icon-cup",
+  },
+  {
+    id: 3,
+    title: "Creative",
+    count: 15,
+    icon: "icon-emotsmile",
+  },
+  {
+    id: 4,
+    title: "Adobe Suite",
+    count: 9,
+    icon: "icon-trophy",
+  },
+  {
+    id: 5,
+    title: "HTML",
+    count: 20,
+    icon: "icon-like",
+  },
+  {
+    id: 6,
+    title: "Time Management",
+    count: 2765,
+    icon: "icon-cup",
+  },
+  {
+    id: 8,
+    title: "O.O.P.",
+    count: 9,
+    icon: "icon-trophy",
+  },
+  
+  {
+    id: 5,
+    title: "HTML",
+    count: 20,
+    icon: "icon-like",
+  },
+  {
+    id: 6,
+    title: "Detailed",
+    count: 2765,
+    icon: "icon-cup",
+  },
+  {
+    id: 7,
+    title: "Teamwork",
+    count: 15,
+    icon: "icon-emotsmile",
+  }
 ];
 
 function Funfacts() {
