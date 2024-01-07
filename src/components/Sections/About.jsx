@@ -8,7 +8,7 @@ const aboutData = {
   location: "Moscow, Russia",
   birthday: "08 December, 1992",
   email: "aymartel@gmail.com",
-  aboutMe1:"I’m Andy Martel an enthusiastic detail-oriented Master in Applied Informatics who graduated from The National University of Science and Technology of Russia (MISIS). I am also Software Engineer from the University of Computer Science of Cuba (UCI).",
+  aboutMe1:"I’m Andy Martel an Enthusiastic and detail oriented frontend programmer with 4 years of experience in web development working with REACT technologies using Javascript, HTML, CSS languages. I also have experience as a graphic designer working with Adobe Creative Suite specifically Illustrator and Photoshop. I also worked as a programming and chess teacher for teenagers. I worked as operations manager for Latin American countries in a Russian company, improving the product sales area and managing the company's logistics in the country. Adept at collaborating with cross-functional teams to drive project success. Seeking to contribute technical expertise and creative skills to a dynamic development team.",
 };
 
 function About() {

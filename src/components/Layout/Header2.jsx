@@ -86,8 +86,8 @@ function Header({ toggleHeader, toggleHandler }) {
                 </Link>
               </li> */}
               <li>
-                <Link to="/resume">
-                  <i className="icon-graduation"></i>Resume
+                <Link to="/experience">
+                  <i className="icon-graduation"></i>Experience
                 </Link>
               </li>
               <li>

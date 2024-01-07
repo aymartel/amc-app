@@ -27,17 +27,17 @@ function Herosection() {
           I’m {herosectionData.name}
           <span className="dot"></span>
         </h1>
-        <p className="mb-4">Cuban Master in Applied Informatics, Amateur Baseball Player.<br></br><strong>"Keep your eyes on the stars and your feet on the ground"</strong> </p>
+        <p className="mb-4">Cuban Master, in Applied Informatics, Amateur Baseball Player.<br></br><strong>"Keep your eyes on the stars and your feet on the ground"</strong> </p>
         <p className="mb-4"></p>
         {/* <Link to="/works"
           className="btn btn-default btn-lg mr-3"
         >
           <i className="icon-grid"></i>View Portfolio
         </Link> */}
-        <Link to="/resume"
+        <Link to="/experience"
           className="btn btn-default btn-lg mr-3"
         >
-          <i className="icon-graduation"></i>Resume
+          <i className="icon-graduation"></i>Experience
         </Link>
         <div
           className="spacer d-md-none d-lg-none d-sm-none"
