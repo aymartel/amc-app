@@ -40,9 +40,9 @@ function Skill({ progress: { name, percentage }, isVisible }) {
     <div className="skill-item">
       <div className="skill-info clearfix">
         <h4 className="float-left mb-3 mt-0">{name}</h4>
-        <span className="float-right">{percentage}%</span>
+        {/* <span className="float-right">{percentage}%</span> */}
       </div>
-      <div className="progress">{progressQuery()}</div>
+      {/* <div className="progress">{progressQuery()}</div> */}
     </div>
   );
 }

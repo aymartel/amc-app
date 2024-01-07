@@ -4,7 +4,7 @@ import Skill from "../Items/Skill";
 
 const skillData = {
   skillContent:
-    "I have 3 years of experience in web development working with REACT and Angular technologies using Javascript, HTML, CSS languages. I also have experience as a graphic designer working with Adobe Creative Suite specifically Illustrator and Photoshop. I’m very proactive and I'm always trying to learn new skills.",
+    "Enthusiastic and detail oriented frontend programmer with 4 years of experience in web development working with REACT technologies using Javascript, HTML, CSS languages. I also have experience as a graphic designer working with Adobe Creative Suite specifically Illustrator and Photoshop. I also worked as a programming and chess teacher for teenagers. I worked as operations manager for Latin American countries in a Russian company, improving the product sales area and managing the company's logistics in the country. Adept at collaborating with cross-functional teams to drive project success. Seeking to contribute technical expertise and creative skills to a dynamic development team.",
   progressData: [
     {
       id: 1,
