@@ -26,6 +26,91 @@ const skillData = {
       name: "O.O.P",
       percentage: 85,
     },
+    {
+      id: 5,
+      name: "Javascript",
+      percentage: 75,
+    },
+    {
+      id: 6,
+      name: "HTML & CSS",
+      percentage: 80,
+    },
+    {
+      id: 7,
+      name: "Database",
+      percentage: 60,
+    },
+    {
+      id: 8,
+      name: "O.O.P",
+      percentage: 85,
+    },
+    {
+      id: 9,
+      name: "Javascript",
+      percentage: 75,
+    },
+    {
+      id: 10,
+      name: "HTML & CSS",
+      percentage: 80,
+    },
+    {
+      id: 11,
+      name: "Database",
+      percentage: 60,
+    },
+    {
+      id: 12,
+      name: "O.O.P",
+      percentage: 85,
+    },
+    {
+      id: 13,
+      name: "Javascript",
+      percentage: 75,
+    },
+    {
+      id: 14,
+      name: "HTML & CSS",
+      percentage: 80,
+    },
+    {
+      id: 15,
+      name: "Database",
+      percentage: 60,
+    },
+    {
+      id: 16,
+      name: "O.O.P",
+      percentage: 85,
+    },
+    {
+      id: 17,
+      name: "O.O.P",
+      percentage: 85,
+    },
+    {
+      id: 18,
+      name: "Javascript",
+      percentage: 75,
+    },
+    {
+      id: 19,
+      name: "HTML & CSS",
+      percentage: 80,
+    },
+    {
+      id: 20,
+      name: "Database",
+      percentage: 60,
+    },
+    {
+      id: 21,
+      name: "O.O.P",
+      percentage: 85,
+    }
   ],
 };
 
@@ -36,7 +121,7 @@ function Skills() {
       <div className="mt-5">
         <div className="row -mt-50">
           {skillData.progressData.map((progress) => (
-            <div className="col-md-3 mt-10" key={progress.id}>
+            <div className="col-md-3 mt-20" key={progress.id}>
               <TrackVisibility once>
                 <Skill progress={progress} />
               </TrackVisibility>
