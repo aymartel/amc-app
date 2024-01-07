@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
 import {
-  FaWhatsap,
+  FaWhatSapp,
   FaInstagram,
   FaLinkedin,
   FaGithub,
@@ -199,10 +199,10 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-              {!headerData.social.whatsap ? null : (
+              {!headerData.social.whatsapp ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.whatsap}>
-                    <FaWhatsap />
+                  <a href={headerData.social.whatsapp}>
+                    <FaWhatSapp />
                   </a>
                 </li>
               )}

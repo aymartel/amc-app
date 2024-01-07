@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaWhatsap,
+  FaWhatSapp,
   FaInstagram,
   FaLinkedin,
   FaGithub,
@@ -14,7 +14,7 @@ const headerData = {
   imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
-    whatsap: "https://wa.me/+79939036475",
+    whatsapp: "https://wa.me/+79939036475",
     instagram: "https://www.instagram.com/andy.martel",
     linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
   },
@@ -112,10 +112,10 @@ function Header({ toggleHeader, toggleHandler }) {
                   </a>
                 </li>
               )}
-               {!headerData.social.whatsap ? null : (
+               {!headerData.social.whatsapp ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.whatsap}>
-                    <FaWhatsap />
+                  <a href={headerData.social.whatsapp}>
+                    <FaWhatSapp />
                   </a>
                 </li>
               )}
