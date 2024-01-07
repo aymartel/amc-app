@@ -8,42 +8,42 @@ const skillData = {
   progressData: [
     {
       id: 1,
-      name: "Javascript",
+      name: "Javascript  ",
       percentage: 75,
     },
     {
       id: 2,
-      name: "HTML & CSS",
+      name: "Python",
       percentage: 80,
     },
     {
       id: 3,
-      name: "Database",
+      name: "Typescript  ",
       percentage: 60,
     },
     {
       id: 4,
-      name: "O.O.P",
+      name: "Data base",
       percentage: 85,
     },
     {
       id: 5,
-      name: "Javascript",
+      name: "HTML",
       percentage: 75,
     },
     {
       id: 6,
-      name: "HTML & CSS",
+      name: "CSS ",
       percentage: 80,
     },
     {
       id: 7,
-      name: "Database",
+      name: "Figma",
       percentage: 60,
     },
     {
       id: 8,
-      name: "O.O.P",
+      name: "React",
       percentage: 85,
     },
     {
@@ -53,62 +53,62 @@ const skillData = {
     },
     {
       id: 10,
-      name: "HTML & CSS",
+      name: "NextJs",
       percentage: 80,
     },
     {
       id: 11,
-      name: "Database",
+      name: "Container",
       percentage: 60,
     },
     {
       id: 12,
-      name: "O.O.P",
+      name: "Bootstrap",
       percentage: 85,
     },
     {
       id: 13,
-      name: "Javascript",
+      name: "MaterialUI",
       percentage: 75,
     },
     {
       id: 14,
-      name: "HTML & CSS",
+      name: "Git",
       percentage: 80,
     },
     {
       id: 15,
-      name: "Database",
+      name: "Jira ",
       percentage: 60,
     },
     {
       id: 16,
-      name: "O.O.P",
+      name: "Creative ",
       percentage: 85,
     },
     {
       id: 17,
-      name: "O.O.P",
+      name: "Adobe suite",
       percentage: 85,
     },
     {
       id: 18,
-      name: "Javascript",
+      name: "Time Management",
       percentage: 75,
     },
     {
       id: 19,
-      name: "HTML & CSS",
+      name: "O.O.P.",
       percentage: 80,
     },
     {
       id: 20,
-      name: "Database",
+      name: "Detailed",
       percentage: 60,
     },
     {
       id: 21,
-      name: "O.O.P",
+      name: "Teamwork",
       percentage: 85,
     }
   ],
@@ -121,7 +121,7 @@ function Skills() {
       <div className="mt-5">
         <div className="row -mt-50">
           {skillData.progressData.map((progress) => (
-            <div className="col-md-3 mt-20" key={progress.id}>
+            <div className="col-sm-6 col-md-4 col-xl-3 mt-20" key={progress.id}>
               <TrackVisibility once>
                 <Skill progress={progress} />
               </TrackVisibility>
