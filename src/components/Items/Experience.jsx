@@ -7,8 +7,8 @@ function Experience({ experience: { year, degree, content } }) {
         <span>{year}</span>
       </div>
       <div className="body">
+        <h5 className="mt-0">{position}</h5>
         <h4 className="mt-0">{degree}</h4>
-        <h5 className="mt-0">{degree}</h5>
         <p>{content}</p>
       </div>
     </div>
