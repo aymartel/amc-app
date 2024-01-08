@@ -10,6 +10,7 @@ const headerData = {
   social: {
     github: "https://github.com/aymartel",
     whatsapp: "https://wa.me/+79939036475",
+    telegram: "https://t.me/aymartel",
     instagram: "https://www.instagram.com/andy.martel",
     linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
   },
@@ -110,6 +111,13 @@ function Header({ toggleHeader, toggleHandler }) {
               {!headerData.social.whatsapp ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.whatsapp} target="_blank">
+                  <i className="icon-speech"></i>
+                  </a>
+                </li>
+              )}
+              {!headerData.social.telegram ? null : (
+                <li className="list-inline-item">
+                  <a href={headerData.social.telegram} target="_blank">
                   <i className="icon-paper-plane"></i>
                   </a>
                 </li>
