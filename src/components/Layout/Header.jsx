@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
-import {
-  FaWhatSapp,
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
 
 const headerData = {
   name: "Andy Martel",
@@ -195,28 +189,28 @@ function Header({ toggleHeader, toggleHandler }) {
               {!headerData.social.github ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.github}>
-                    <FaGithub />
+                  <i className="icon-social-github"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.whatsapp ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.whatsapp}>
-                    <FaWhatSapp />
+                  <i className="icon-paper-plane"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.instagram ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.instagram}>
-                    <FaInstagram />
+                  <i className="icon-social-instagram"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.linkedin ? null : (
                 <li className="list-inline-item">
                   <a href={headerData.social.linkedin}>
-                    <FaLinkedin />
+                  <i className="icon-social-linkedin"></i>
                   </a>
                 </li>
               )}
