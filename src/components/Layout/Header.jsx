@@ -188,28 +188,28 @@ function Header({ toggleHeader, toggleHandler }) {
             <ul className="social-icons list-inline">
               {!headerData.social.github ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.github}>
+                  <a href={headerData.social.github} target="_blank">
                   <i className="icon-social-github"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.whatsapp ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.whatsapp}>
+                  <a href={headerData.social.whatsapp} target="_blank">
                   <i className="icon-paper-plane"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.instagram ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.instagram}>
+                  <a href={headerData.social.instagram} target="_blank">
                   <i className="icon-social-instagram"></i>
                   </a>
                 </li>
               )}
               {!headerData.social.linkedin ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.linkedin}>
+                  <a href={headerData.social.linkedin} target="_blank">
                   <i className="icon-social-linkedin"></i>
                   </a>
                 </li>
