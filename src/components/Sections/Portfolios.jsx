@@ -25,19 +25,20 @@ const filters = [
 ];
 
 const allData = [
+  
   {
     id: 1,
-    name: "Clinica Salud y Esperanza",
-    category: ["branding","web"],
-    image: "images/portfolio/1.jpg",
-    slug: "clinica-hispana",
-  },
-  {
-    id: 2,
     name: "MC Booster",
     category: ["branding","web"],
     image: "images/portfolio/2.jpg",
     slug: "mc-booster",
+  },
+  {
+    id: 2,
+    name: "Clinica Salud y Esperanza",
+    category: ["branding","web"],
+    image: "images/portfolio/1.jpg",
+    slug: "clinica-hispana",
   },
   {
     id: 3,

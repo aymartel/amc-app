@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import Loading from '../Items/Loading';
 
 const contactData = {
-  phone: ["+7 977 773 8978"],
+  phone: ["+7 993 903 6475"],
   email: ["aymartel@gmail.com"],
   location: "Ulitsa Profsoyuznaya, 115 корпус 2, Moskva, 117647",
 };
