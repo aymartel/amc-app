@@ -39,7 +39,7 @@ const [loading, setloading] = useState(false)
       setloading(false);
       setMessage("Message is required");
     } else {
-      emailjs.sendForm('service_yu70oyy', 'template_jd3dlw3', event.target, 'R6w9EuYAE4sxVuJS0')
+      emailjs.sendForm('service_re5qbhm', 'template_jd3dlw3', event.target, 'R6w9EuYAE4sxVuJS0')
       .then((result) => {
         setError(false);
         setloading(false);
