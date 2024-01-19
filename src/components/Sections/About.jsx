@@ -42,11 +42,11 @@ function About() {
         <a href={aboutData.cvpath} className="btn btn-default mr-3">
           <i className="icon-cloud-download"></i>Download CV ENG
         </a>
-        <Link href={aboutData.cvpathes}
+        <a href={aboutData.cvpathes}
           className="btn btn-alt mt-2 mt-md-0 mt-xs-2"
         >
           <i className="icon-envelope"></i>Download CV ESP
-        </Link>
+        </a>
       </div>
     </div>
   );
