@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const aboutData = {
-  cvpath: "media/cv-andymartel.pdf",
+  cvpath: "media/cv-andymartel_EN.pdf",
+  cvpathes: "media/cv-andymartel_ES.pdf",
   image: "images/about.png",
   name: "Andy Martel",
-  location: "Moscow, Russia",
+  location: "Murcia, Spain",
   birthday: "08 December, 1992",
   email: "aymartel@gmail.com",
   aboutMe1:"I’m Andy Martel an enthusiastic detail-oriented Master in Applied Informatics who graduated from The National University of Science and Technology of Russia (MISIS). I am also Software Engineer from the University of Computer Science of Cuba (UCI).",
@@ -39,12 +40,12 @@ function About() {
           </div>
         </div>
         <a href={aboutData.cvpath} className="btn btn-default mr-3">
-          <i className="icon-cloud-download"></i>Download CV
+          <i className="icon-cloud-download"></i>Download CV ENG
         </a>
-        <Link to="/contact"
+        <Link href={aboutData.cvpathes}
           className="btn btn-alt mt-2 mt-md-0 mt-xs-2"
         >
-          <i className="icon-envelope"></i>Hire me
+          <i className="icon-envelope"></i>Download CV ESP
         </Link>
       </div>
     </div>
