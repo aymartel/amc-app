@@ -4,7 +4,7 @@ import Skill from "../Items/Skill";
 
 const skillData = {
   skillContent:
-    "Enthusiastic and detail oriented frontend programmer with 4 years of experience in web development working with REACT technologies using Javascript, HTML, CSS languages. I also have experience as a graphic designer working with Adobe Creative Suite specifically Illustrator and Photoshop. I also worked as a programming and chess teacher for teenagers. I worked as operations manager for Latin American countries in a Russian company, improving the product sales area and managing the company's logistics in the country. Adept at collaborating with cross-functional teams to drive project success. Seeking to contribute technical expertise and creative skills to a dynamic development team.",
+    "Web Developer with a strong background in web development and graphic design, holding a Master's degree in Applied Computer Science from MISIS University in Moscow. Experienced in TypeScript, JavaScript, React, Node.js, Next.js, SQL, MongoDB, MySQL, Jest, Bootstrap, MaterialUI, HTML, CSS, Figma, and Adobe Suite. Worked as a frontend and fullstack developer on institutional websites, HR software, and ERP solutions. Executed branding projects and created corporate identities for small businesses, including graphic design and SEO strategies. Additionally, taught Python programming and chess to teenagers. Seeking to contribute technical expertise and creative skills to a dynamic development team for continued growth.",
   progressData: [
     {
       id: 1,
