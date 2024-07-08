@@ -9,10 +9,10 @@ const headerData = {
   imageFavicon: "/images/favicon.png",
   social: {
     github: "https://github.com/aymartel",
-    whatsap: "https://wa.me/+79939036475",
+    whatsap: "https://wa.me/+34672953665",
     telegram: "https://t.me/aymartel",
     instagram: "https://www.instagram.com/andy.martel",
-    linkedin: "https://www.linkedin.com/in/andy-yonnie-martel-carpio-a28559134",
+    linkedin: "https://www.linkedin.com/in/aymartel",
   },
 };
 
