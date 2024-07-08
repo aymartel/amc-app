@@ -12,7 +12,7 @@ const headerData = {
     whatsap: "https://wa.me/+34672953665",
     telegram: "https://t.me/aymartel",
     instagram: "https://www.instagram.com/andy.martel",
-    linkedin: "https://www.linkedin.com/in/aymartel",
+    linkedin: "https://www.linkedin.com/in/aymartel/",
   },
 };
 
